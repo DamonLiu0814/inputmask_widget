@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="assets_backend" name="inputmask_widget" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <link type="text/css" href="/inputmask_widget/static/src/css/inputmask_widgets.css" rel="stylesheet"/>
+                <link type="text/css" href="/inputmask_widget/static/lib/tipso/tipso.css" rel="stylesheet"/>
+                <script type="text/javascript" src="/inputmask_widget/static/lib/jquery.inputmask/jquery.inputmask.bundle.js"></script>
+                <script type="text/javascript" src="/inputmask_widget/static/lib/tipso/tipso.js"></script>
+                <script type="text/javascript" src="/inputmask_widget/static/src/js/inputmask_widgets.js"></script>
+            </xpath>
+        </template>
+    </data>
+</odoo>
