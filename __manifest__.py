@@ -25,8 +25,15 @@ Instructions:
 
    Some examples::
 
-    <field widget="mask" data-inputmask="'mask': '99'" name="name" suffix="°C"/>
-    <field widget="mask" data-inputmask="'mask': '999,9'" name="name" prefix="$"/>
+    <field name="sv_temperatura"
+        data-tipso="Temperatura"
+        widget="mask"
+        widget-alias="temperature"
+        data-inputmask-mask="99[.9]"
+        data-inputmask-min="30"
+        data-inputmask-max="40"
+        data-inputmask-measure="°C"
+        suffix="true"/>
 
     <field widget="mask" data-inputmask="'alias': 'date'" name="name"/>
     <field widget="mask" data-inputmask="'mask': '99/99/9999'" name="name" />

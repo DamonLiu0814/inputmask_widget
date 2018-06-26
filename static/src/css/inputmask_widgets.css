@@ -1,5 +1,5 @@
-input.error {
-    border: 2px double red;
+input.invalid-value {
+    background-color: red !important;
 }
 span.mask-suffix {
     margin-left: 5px;
